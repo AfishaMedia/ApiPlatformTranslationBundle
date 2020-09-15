@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Locastic\ApiPlatformTranslationBundle\EventListener;
 
-use Doctrine\Common\Persistence\Event\LifecycleEventArgs;
+use Doctrine\ORM\Event\LifecycleEventArgs;
 use Locastic\ApiPlatformTranslationBundle\Model\TranslatableInterface;
 use Locastic\ApiPlatformTranslationBundle\Translation\Translator;
 
